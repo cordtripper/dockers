@@ -10,7 +10,7 @@
   <Privileged>true</Privileged>
   <Environment/>
   <Networking>
-    <Mode>host</Mode>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>8081</HostPort>
@@ -41,7 +41,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/unifi/</HostDir>
+      <HostDir>/mnt/disk/unAPPS/unifi/</HostDir>
       <ContainerDir>/var/lib/unifi</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
