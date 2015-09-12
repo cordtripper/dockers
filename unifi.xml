@@ -4,7 +4,7 @@
   <Category>HomeAutomation: Network:Management</Category>
   <Name>UniFi</Name>
   <Description></Description>
-  <Registry>https://github.com/cordtripper/UniFi</Registry>
+  <Registry>https://hub.docker.com/r/cordtripper/unifi/</Registry>
   <Repository>cordtripper/unifi</Repository>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
