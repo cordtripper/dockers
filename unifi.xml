@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Beta>False</Beta>
+  <Beta>true</Beta>
   <Category>HomeAutomation: Network:Management</Category>
   <Name>UniFi</Name>
   <Description></Description>
-  <Registry>https://hub.docker.com/r/cordtripper/unifi/</Registry>
+  <Registry>https://github.com/cordtripper/UniFi</Registry>
   <Repository>cordtripper/unifi</Repository>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
