@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Beta>true</Beta>
+  <Beta>false</Beta>
   <Category>HomeAutomation: Network:Management</Category>
   <Name>UniFi</Name>
   <Description></Description>
