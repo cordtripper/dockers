@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>false</Beta>
+  <Category>HomeAutomation: Network:Management</Category>
+  <Name>UniFi ALPHA</Name>
+  <Description></Description>
+  <Registry>https://registry.hub.docker.com/u/cordtripper/unifialpha/</Registry>
+  <Repository>cordtripper/unifialpha</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9002</HostPort>
+        <ContainerPort>9002</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9000</HostPort>
+        <ContainerPort>9000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9001</HostPort>
+        <ContainerPort>9001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9004</HostPort>
+        <ContainerPort>9004</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9003</HostPort>
+        <ContainerPort>9003</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/disk/unAPPS/unifi/</HostDir>
+      <ContainerDir>/var/lib/unifi</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>https://[IP]:[PORT:9001]/manage</WebUI>
+  <Banner>http://i.imgur.com/dD9ub3n.png</Banner>
+  <Icon>http://i.imgur.com/dD9ub3n.png</Icon>
+</Container>
