@@ -13,28 +13,28 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>7002</HostPort>
-        <ContainerPort>7002</ContainerPort>
+        <HostPort>8002</HostPort>
+        <ContainerPort>8002</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>7000</HostPort>
-        <ContainerPort>7000</ContainerPort>
+        <HostPort>8000</HostPort>
+        <ContainerPort>8000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>7001</HostPort>
-        <ContainerPort>7001</ContainerPort>
+        <HostPort>8001</HostPort>
+        <ContainerPort>8001</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>7004</HostPort>
-        <ContainerPort>7004</ContainerPort>
+        <HostPort>8004</HostPort>
+        <ContainerPort>8004</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>7003</HostPort>
-        <ContainerPort>7003</ContainerPort>
+        <HostPort>8003</HostPort>
+        <ContainerPort>8003</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -45,14 +45,9 @@
       <ContainerDir>/var/lib/unifialpha</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-        <Volume>
-      <HostDir>/mnt/disk/unAPPS/unifialpha/</HostDir>
-      <ContainerDir>/usr/lib/unifialpha</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
   <Version></Version>
-  <WebUI>https://[IP]:[PORT:7001]/manage</WebUI>
+  <WebUI>https://[IP]:[PORT:8001]/manage</WebUI>
   <Banner>http://i.imgur.com/dD9ub3n.png</Banner>
   <Icon>http://i.imgur.com/dD9ub3n.png</Icon>
 </Container>
