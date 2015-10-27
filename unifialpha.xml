@@ -42,7 +42,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/disk/unAPPS/unifialpha/</HostDir>
-      <ContainerDir>/var/lib/unifialpha</ContainerDir>
+      <ContainerDir>/var/lib/unifi</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
