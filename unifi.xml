@@ -44,6 +44,9 @@
       <HostDir>/mnt/disk/unAPPS/unifi/</HostDir>
       <ContainerDir>/var/lib/unifi</ContainerDir>
       <Mode>rw</Mode>
+      <HostDir>/usr/lib/unifi/data/keystore</HostDir>
+      <ContainerDir>/mnt/disk/unAPPS/unifi/data/keystore</ContainerDir>
+      <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version></Version>
